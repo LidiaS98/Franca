@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+header {
+  color: red;
+}
+.container {
+  display: flex;
+  flex-wrap: row;
+  column-gap: 20px;
+  align-content: center;
+}
+#img1,
+#img2 {
+  flex: 1;
+  aspect-ratio: auto 4011 / 6048;
+  padding: 1vh;
+}
+
+.misery {
+  margin: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#motto {
+  width: 30%;
+  height: 30%;
+  object-position: 50% 50%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 180px;
+  align-items: center;
+}
+
+.firstCard,
+.secondCard,
+.thirdCard {
+  width: 20%;
+  height: 40%;
+  padding: 30px;
+}
+.newsletter {
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.graphics img {
+  height: 50vh;
+}
+.graphics {
+  justify-content: center;
+  display: flex;
+  flex-wrap: row;
+}
+
+.socialMedia {
+  justify-content: center;
+  display: flex;
+  flex-wrap: row;
+  flex: 1;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
