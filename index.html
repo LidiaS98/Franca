@@ -21,92 +21,106 @@
 
   <body>
     <section id="header">
-      <h1 class="logo">Franca</h1>
+      <h1 class="logo" id="francaLogo">Franca</h1>
       <div class="menu-items">
         <ul id="navbar">
           <li><a class="active" href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
           <li><a href="about.html">About</a></li>
-          <li>
+          <li id="lg-bag">
             <a href="cart.html"
               >Basket <i class="fa-solid fa-cart-shopping"></i
             ></a>
           </li>
+          <a href="#" id="close"><i class="fa-regular fa-x"></i></a>
         </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
       </div>
     </section>
 
-    <div class="firstContainer">
-      <img id="img1" src="Franca_img\Franca1.PNG" alt="Franca1" />
-      <img id="img2" src="Franca_img\Franca2.PNG" alt="Franca2" />
-    </div>
-    <div class="misery">
-      <img
-        src="Franca_img\Untitled_Artwork+137.png"
-        alt="MiseryLovesCompany"
-        id="motto"
-      />
-    </div>
-    <div class="flex-container">
-      <div class="firstCard">
-        <img src="Franca_img\Franca3.PNG" alt="" id="firstProduct" />
+    <section id="top">
+      <div class="topContainer">
+        <img id="img1" src="Franca_img\Franca1.PNG" alt="Franca1" />
+        <img id="img2" src="Franca_img\Franca2.PNG" alt="Franca2" />
       </div>
-      <div class="secondCard">
-        <img src="Franca_img\Franca4.PNG" alt="" id="secondProduct" />
+    </section>
+    <section id="misery">
+      <div class="misery">
+        <img
+          src="Franca_img\Untitled_Artwork+137.png"
+          alt="MiseryLovesCompany"
+          id="motto"
+        />
       </div>
-      <div class="thirdCard">
-        <img src="Franca_img\Franca5.PNG" alt="" id="thirdProduct" />
-      </div>
-    </div>
+    </section>
 
-    <div class="newsletter">
-      <h2>Join the Franca club</h2>
-      <h3>
-        Sign up to our mailing list for exclusive content, offers, and sneak
-        peeks…
-      </h3>
-      <div class="newsletter-form">
-        <form action="">
-          <input
-            type="text"
-            id="fname"
-            name="firstName"
-            placeholder="First Name"
-            maxlength="30"
-          />
-          <input
-            type="text"
-            id="lname"
-            name="lastName"
-            placeholder="Last Name"
-            maxlength="30"
-          />
-          <input
-            type="email"
-            id="email"
-            class="required"
-            name="email"
-            placeholder="Email Address"
-          />
-          <!-- <input type="submit" value="Submit" id="submitButton" /> -->
-          <button type="submit" value="Sign Up" id="submitButton">
-            Sign Up
-          </button>
-        </form>
-      </div>
-      <p id="acceptPrivacy">We respect your privacy.</p>
-    </div>
-    <div class="graphics">
-      <img src="Franca_img\Untitled_Artwork+138.png" alt="" />
-    </div>
-    <div class="socialMedia">
-      <div class="icons">
-        <div class="instagram">
-          <i class="fa-brands fa-instagram"></i>
+    <section class="banner3">
+      <div class="banner-box">
+        <div class="firstCard">
+          <img src="Franca_img\Franca3.PNG" alt="" id="firstProduct" />
         </div>
-        <div class="facebook"><i class="fa-brands fa-tiktok"></i></div>
+        <div class="secondCard">
+          <img src="Franca_img\Franca4.PNG" alt="" id="secondProduct" />
+        </div>
+        <div class="thirdCard">
+          <img src="Franca_img\Franca5.PNG" alt="" id="thirdProduct" />
+        </div>
       </div>
-    </div>
+    </section>
+    <section>
+      <div class="newsletter">
+        <h2>Join the Franca club</h2>
+        <h3>
+          Sign up to our mailing list for exclusive content, offers, and sneak
+          peeks…
+        </h3>
+        <div class="newsletter-form">
+          <form action="">
+            <input
+              type="text"
+              id="fname"
+              name="firstName"
+              placeholder="First Name"
+              maxlength="30"
+            />
+            <input
+              type="text"
+              id="lname"
+              name="lastName"
+              placeholder="Last Name"
+              maxlength="30"
+            />
+            <input
+              type="email"
+              id="email"
+              class="required"
+              name="email"
+              placeholder="Email Address"
+            />
+            <!-- <input type="submit" value="Submit" id="submitButton" /> -->
+            <button type="submit" value="Sign Up" id="submitButton">
+              Sign Up
+            </button>
+          </form>
+        </div>
+        <p id="acceptPrivacy">We respect your privacy.</p>
+      </div>
+    </section>
+    <section class="graphicFranca">
+      <div class="graphics">
+        <img src="Franca_img\Untitled_Artwork+138.png" alt="" />
+      </div>
+    </section>
+    <section>
+      <div class="socialMedia">
+        <div class="instagram" id="instagramIcon">
+          <i class="fa-brands fa-instagram fa-xl"></i>
+        </div>
+      </div>
+    </section>
     <script src="app.js"></script>
     <script
       src="https://kit.fontawesome.com/bb6d823e0c.js"
